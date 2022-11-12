@@ -17,9 +17,9 @@ os.environ['MASTER_ADDR'] = 'localhost'
 os.environ['MASTER_PORT'] = '12355'
 
 from utils.args import get_args
-from data.tbmc_dataset import TBMC_dataset
-from models.tbmc import MultimodalBertClf
-from utils.trainer.tbmc_trainer import TBMC_Trainer
+from data.ktbmc_dataset import KTBMC_dataset
+from models.ktbmc import MultimodalBertClf
+from utils.trainer.ktbmc_trainer import KTBMC_Trainer
 
 
 def seed_torch(seed=16):
