@@ -11,7 +11,7 @@ from torch.optim import SGD, Adam
 from torch.optim.lr_scheduler import StepLR
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard.writer import SummaryWriter
-from data.bact_treatment_prognosis_dataset import collate_fn
+from data.tbmc_dataset import collate_fn
 from utils.checkpoint import load_checkpoint, save_checkpoint
 from torchmetrics.functional import auc
 
